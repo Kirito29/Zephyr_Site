@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<title> Zephyr | Sign up </title> 
+		
+		<link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet"> <!--Custom font-->
+		<link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet"> <!--Custom font-->
+		<link rel ="shortcut icon" type="image/png" href="https://i.pinimg.com/564x/0b/3f/26/0b3f261bae4f188b4bf651008c332933.jpg"
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+		<link href= "Zephyr_1_stylesheet.css" rel= "stylesheet" type= "text/css">
+		
+		<link rel ="shortcut icon" type="image/png" href="Nucleae/Nucleae.jpg">
+<!--  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>-->
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+			
+		<style>
+		form {
+		text-align: center;
+		}
+		
+		label, input {
+		display: inline-block;
+		}
+
+		label {
+			text-align: right;
+			width: 10%;
+		}
+
+		label + input {
+			width: 30%;
+			margin: 0 10% 0 2%;
+		}
+		input[type=text], select {
+		  width: 20%;
+		  padding: 8px 20px;
+		  margin: 6px 0;
+		  display: inline-block;
+		  border: 1px solid black;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		}
+		input[type=date], select {
+		  width: 20%;
+		  padding: 8px 20px;
+		  margin: 6px 0;
+		  display: inline-block;
+		  border: 1px solid black;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		}
+		input[type=email], select {
+		  width: 20%;
+		  padding: 8px 20px;
+		  margin: 6px 0;
+		  display: inline-block;
+		  border: 1px solid black;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		}
+		input[type=password], select {
+		  width: 20%;
+		  padding: 8px 20px;
+		  margin: 6px 0;
+		  display: inline-block;
+		  border: 1px solid black;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		}
+
+
+
+	</style>
+			
+		<!--<script type="text/javascript">  AFterwards we can put in the javascript.
+
+		function checkPassword(str)
+		{
+		// at least one number, one lowercase and one uppercase letter
+		// at least six characters
+		var re = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/;
+		return re.test(str);
+		}
+
+		</script>-->
+	
+
+
+
+			
+			
+			
+	</head>
+	
+	<body>
+	
+
+<div class="content">
+<div class="nav_bar">
+		<div align="left" class="left_nav">	
+					<a  href= "index.html"><img class="logo" src="./Images/Zephyr.png" alt="Zephyr Gaming"></a>
+					
+					<a  href= "Content_Creator_Profile.html"><button class="btn btnwarning"> Content Creators </button></a>
+					<a  href= "Content_Editor_Profile.html"><button class="btn btnwarning"> Content Editors </button></a>
+					
+				
+					<a  href= "partnership.html"><button class="btn btnwarning"> Partnership </button></a>
+										
+				
+				
+					<button class="btn btnwarning"> Sponsors </button>
+					<a  href= "about_us.html"><button class="btn btnwarning"> About Us</button></a>
+				
+					<button  onclick="document.getElementById('id01').style.display='block'" id="login"class="btn Login" >Login</button>
+					<a  href= "Sign_Up.html"><button id="signUp" class="btn sign_up">Sign up</button></a>
+		</div>	
+</div>
+<div class = "container">
+
+ 
+  <div class="container">
+    <h4 style = "text-align : center;"><b>Sign Up</b></h4>
+  </div></br>
+
+
+
+</div>
+
+		<form action="#" method="POST"> 
+			<label><b> First Name</b></label>
+			<input type="text"required/></br>
+			
+			<label><b> Last Name</b></label>
+			<input type="text"required/></br>
+			
+			<label><b>Date of Birth</b></label>
+			<input type="date"required/></br>
+			
+			<label><b>E-mail</b></label>
+			<input type="email"required id="email" name="email"></br>
+			
+			<label><b>Username</b></label>
+			<input type="text"required/></br>
+			
+			<label><b>Create Password</b></label>
+			<input placeholder="At least 8 characters." type="password" required maxlength="8"/></br>
+			
+			<label><b>Confirm Password</b></label>
+			<input type="password" maxlength="8" required/></br>
+			
+			</br>
+			<input type="submit"/>  <!You can use the input type tag to create a button or use the button element.>
+		
+		
+		
+		
+		</form>
+
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+	</body>
+	
+	
+</html>

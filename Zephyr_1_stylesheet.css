@@ -1,0 +1,415 @@
+/*Fonts*/
+#FeaturedContent{
+	font-family: 'Fredoka One', cursive;
+	    padding-left: 609px;
+		color: 	 #66ff99;
+}
+#TopVideosStreams{
+	font-family: 'Fredoka One', cursive;
+	    padding-left: 609px;
+		color: 	 #66ff99;
+}
+
+#Top_Categories{
+	font-family: 'Fredoka One', cursive;
+	    padding-left: 609px;
+		color: 	 #66ff99;
+}
+h1{
+	font-family: 'Fredoka One', cursive;
+	
+	color: 	 #66ff99;
+}
+#header_1{ 
+  text-shadow: 5px 5px 10px #4db8ff;
+  color: #660033;
+}
+body{
+	background: url('https://www.elsetge.cat/myimg/f/14-146912_sky-wallpaper-hd-backgrounds-of-sky.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+   transition: background-color .5s;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ccebff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #66ff99; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #66ff99; 
+}
+/*	#WELCOME{
+	font-family: 'Russo One', sans-serif;
+	
+	text-shadow: 5px 5px 10px #4db8ff;
+	text-align: center;
+	color: 	 #66ff99;
+	font-size: 200%;
+	
+  margin-left: 260px;
+  width: 1000px;
+  padding: 1px;  
+  border: 2px;
+  
+  border-width:5px;
+  border-style: double;
+  border-color: 	 #80ffff;
+}*/
+/*#To_Zephyr{
+	font-size: 20%;
+}*/
+
+* {
+  box-sizing: border-box;
+}
+.video-fluid {
+	max-height: 400px;
+	max-width:600px;
+}
+.btn {
+  border: none;
+  background-color:rgb(136, 66, 213, 0.0);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn:hover {background: rgb(102, 255, 204, 0.1)}
+
+.btnwarning{color: #cccccc !important;}
+.Darkmode{
+	/*color: #cccccc;*/
+	color: white !important;
+    background-color: #c4bbbb !important;
+}
+.dark-mode {
+  background: url('https://papers.co/wallpaper/papers.co-vn70-galaxy-s7-dark-pattern-23-wallpaper.jpg') no-repeat center center fixed;
+  color: white !important;
+}
+.btnwarning2{
+	color: #cccccc !important;
+	margin-left: 700px;
+	font-size: 26px !important;
+}
+#login{
+	position: absolute;
+	right: 105px;
+	color: white;
+}
+#signUp{
+	position: absolute;
+	right: 10px;
+	color: white;
+}
+
+.featuredItems{
+	height: 500px;			
+	margin:0 auto;
+	padding: 20px 5px;
+	text-align:center;
+	margin-left: -98px;
+}
+
+.miscMenu{
+    float: right;
+    margin-right: 97px;
+	margin-top: 140px;
+}
+
+.carou{
+	
+				display:inline-block;
+				margin:0 auto;
+				width: 35%;
+				padding: 15px;
+				min-height:400px;
+}
+
+#Top_Divisions{
+	color: 	 #66ff99;
+	
+}
+#See_all{
+	color: 	 #66ff99;
+	
+}
+.carousel-inner{
+	/*height: 200px;*/
+}
+.logo{
+	width: 150px;
+}
+
+.content{
+	width:100%;
+}
+.categoryContent{
+	display: inline-block;
+	width: 22%;
+	padding : 18px;
+}
+.TopVideosStreamsContent{
+	display: inline-block;
+	width: 22%;
+	padding : 18px;
+}
+
+.videoGrid{
+	text-align:center;
+}
+a:link {
+  text-decoration: none !important;
+}
+
+a:visited {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+a:active {
+  text-decoration: none !important;
+}
+
+
+
+.dropbtn {
+  /*background-color: ;*/
+  color: red;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  
+}
+
+/*.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: none;
+  width: 100%;
+  min-width: 160px;
+  /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+  color: #cccccc !important;
+	margin-left: 550px;
+	
+}*/
+/*.dropdown-content a:hover {background-color: none;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}*/
+.categories img {
+    width: 16%;
+    height: 172px;
+    float: left;
+    /* padding-right: 3px; */
+    /*padding: 15px;*/
+	margin-left: 9px;
+    min-height: 258;
+    /* min-width: 254px; */
+    border-radius: 46px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  /*background: #3B5998;*/
+  color: black;
+}
+
+.fa-twitter {
+  /*background: #55ACEE;*/
+  color: black;
+}
+.fa-youtube {
+  /*	background: #bb0000;*/
+  color: black;
+}
+.fa-instagram {
+  /*background: #125688;*/
+  color: black;
+}
+.Discord{
+	/*padding-right: 2px;*/
+	width: 21px;
+}
+.Discord:hover {
+    opacity: 0.7;
+}
+.socialIcons{
+	float: right;
+}
+.contactUs{
+	float: left; 
+}
+#Contact_Us{
+	margin-left: 30px;
+	font-family: 'Fredoka One', cursive;
+}
+.indexFooter{
+	text-align: center;
+}
+#Email{
+	    margin-left: -25px;
+		font-family: 'Fredoka One', cursive;
+}
+#Telephone{
+	    margin-left: 12px;
+		font-family: 'Fredoka One', cursive;
+}
+#ourSocials{
+	margin-right: 30px;
+	font-family: 'Fredoka One', cursive;
+}
+.fb_twit_yt_ig{
+	padding-left: 0px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#more {
+	display: none;
+}
+#myBtn{
+	/*background-color: none !important;*/
+	border-radius: 12px;
+	color: #66ff99 !important;
+	 background-color: rgb(102, 255, 204, 0.1) !important;
+	 border-style: none;
+}
+.logobottom{
+	width: 150px;
+	margin-left: 0px;
+}
+.dropdown-menu{
+	
+	background-color: rgb(102, 255, 204, 0.3) !important;
+}
+#dropdownMenuButton{
+	border: none;
+	background-color: rgb(102, 255, 204, 0.1) !important;
+}
+
+.dropdown-item:hover{
+	color: red;
+}
+.dropdown-menu:hover{
+	color: red;
+}
+.videoDescription{
+	font-family: 'Comic Neue', cursive !important;
+	text-align: left;
+	
+}
+
+.ContentCreatorPic{
+	float :left;
+	width: 60px;
+    height: 53px;
+	border-radius: 46px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+.MediaDetails{
+	float :right;
+}
+.streamerName{
+	margin-left:-4px;
+	color: rgb(153, 51, 255);
+    font-weight: 900;
+}
+
+#video{
+	border-radius: 25px;
+    width: 341px;
+	padding: 15px;
+}
+/*testing========================================================================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+/*testing========================================================================================================================================*/
+
+
+
+
+
+
+

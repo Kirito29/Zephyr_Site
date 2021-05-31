@@ -1,0 +1,868 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<title> Zephyr </title> 
+		
+		<link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet"> <!--Custom font-->
+		<link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet"> <!--Custom font-->
+		<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap" rel="stylesheet"><!--Custom font-->
+		<link rel ="shortcut icon" type="image/png" href="https://i.pinimg.com/564x/0b/3f/26/0b3f261bae4f188b4bf651008c332933.jpg"
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+		<link href= "Zephyr_1_stylesheet.css" rel= "stylesheet" type= "text/css">
+		
+		<link rel ="shortcut icon" type="image/png" href="Nucleae/Nucleae.jpg">
+<!--  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>-->
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">-->
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			
+			<script>
+			
+			function myFunction() 
+			{		
+				var dots = document.getElementById("dots");
+				var moreText = document.getElementById("more");
+				var btnText = document.getElementById("myBtn");
+				
+				if (dots.style.display === "none")
+				{
+				dots.style.display = "inline";
+				btnText.innerHTML = "Show more"; 
+				moreText.style.display = "none";
+				} 
+				else
+				{
+				dots.style.display = "none";
+				btnText.innerHTML = "Show less"; 
+				moreText.style.display = "inline";
+				}
+			}
+			
+			<!--Darkmode Function-->
+				function DarkmodeFunction() 
+				{
+					var element = document.body;
+					element.classList.toggle("dark-mode");
+				}
+			</script>
+			
+			
+	</head>
+	
+	<body>
+	
+<div class="content">
+<div class="nav_bar">
+		<div align="left" class="left_nav">	
+					<a  href= "index.html"><img class="logo" src="./Images/Zephyr.png" alt="Zephyr Gaming"></a>
+					
+					<a  href= "Content_Creator_Profile.html"><button class="btn btnwarning"> Content Creators </button></a>
+					<a  href= "Content_Editor_Profile.html"><button class="btn btnwarning"> Content Editors </button></a>
+					
+				
+					<a  href= "partnership.html"><button class="btn btnwarning"> Partnership </button></a>
+										
+				
+				
+					<button class="btn btnwarning"> Sponsors </button>
+					<a  href= "about_us.html"><button class="btn btnwarning"> About Us</button></a>
+				
+					<button  onclick="document.getElementById('id01').style.display='block'" id="login"class="btn Login" >Login</button>
+					<a  href= "Sign_Up.html"><button id="signUp" class="btn sign_up">Sign up</button></a>
+		</div>	
+</div>
+
+
+
+
+<!--
+<div id="id01" class="modal">
+
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="./Images/Zephyr.png" alt="Avatar" class="avatar" height="60">
+    </div>
+
+    <div class="ex1">
+      <label for="uname"></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+<div class= "featuredItems">
+<div  id="carouselExampleControlsright" class="carou carousel slide" data-ride="carousel">
+<div class="heading"><h1>Featured Gamer</h1></div>
+  <div  class="carousel-inner">
+  
+    <div class="carousel-item active">
+	
+      <video class="video-fluid" autoplay loop muted>
+        <source src="./Videos/Paladins_1.mp4" type="video/mp4" alt="Third slide"/>
+      </video>
+	  
+    </div>
+	
+    <div class="carousel-item">
+	
+        <video class="video-fluid" autoplay loop muted>
+        <source src="./Videos/Destiny 2 2020.03.17 - 11.37.57.00.mp4" type="video/mp4" alt="Second slide"/>
+      </video>
+	  
+    </div>
+	
+    <div class="carousel-item">
+	
+      <video class="video-fluid" autoplay loop muted>
+        <source src="./Videos/Paladins_1.mp4" type="video/mp4" alt="Third slide"/>
+      </video>
+	  
+    </div>
+	
+	<div class="carousel-item">
+	
+      <video class="video-fluid" autoplay loop muted>
+        <source src="./Videos/Destiny 2 2020.03.17 - 11.37.57.00.mp4" type="video/mp4" alt="Third slide"/>
+      </video>
+	  
+    </div>
+									<!--Controls-->	
+	<a class="carousel-control-prev" href="#carouselExampleControlsright" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a> 
+  
+  <a class="carousel-control-next" href="#carouselExampleControlsright" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  
+  </div>
+		
+</div><!--end of Carousel1-->
+
+<!--carousel 2-->
+<div  id="carouselExampleControlsright1" class="carou carousel slide" data-ride="carousel">
+<div class="heading"><h1>Featured Editor</h1></div>
+  <div  class="carousel-inner">
+  
+    <div class="carousel-item active">
+	
+      <video class="video-fluid" autoplay loop muted>
+        <source src="./Videos/Paladins_1.mp4" type="video/mp4" alt="Third slide"/>
+      </video>
+	  
+    </div>
+	
+    <div class="carousel-item">
+	
+        <video class="video-fluid" autoplay loop muted>
+        <source src="./Videos/Destiny 2 2020.03.17 - 11.37.57.00.mp4" type="video/mp4" alt="Second slide"/>
+      </video>
+	  
+    </div>
+	
+    <div class="carousel-item">
+	
+      <video class="video-fluid" autoplay loop muted>
+        <source src="./Videos/Paladins_1.mp4" type="video/mp4" alt="Third slide"/>
+      </video>
+	  
+    </div>
+	
+	<div class="carousel-item">
+	
+      <video class="video-fluid" autoplay loop muted>
+        <source src="./Videos/Destiny 2 2020.03.17 - 11.37.57.00.mp4" type="video/mp4" alt="Third slide"/>
+      </video>
+	  
+    </div>
+									<!--Controls-->	
+	<a class="carousel-control-prev" href="#carouselExampleControlsright1" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a> 
+  
+  <a class="carousel-control-next" href="#carouselExampleControlsright1" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  
+  </div>
+		
+</div><!--end of Carousel2-->																	
+		
+<div class="miscMenu">
+	
+	
+	<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Community
+  </button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<a class="dropdown-item" href="#">Blog</a>
+			<a class="dropdown-item" href="#">Forum</a>
+			<a class="dropdown-item" href="#">FAQs</a>
+			<a class="dropdown-item" href="#">Feedback</a>
+			<a class="dropdown-item" href="#">Support</a>
+		</div>
+	</div>
+<br><br>
+	<button class="btn Darkmode" onclick="DarkmodeFunction()"> Darkmode </button>
+</div> 
+		
+						
+</div>
+
+</div><!--Featured Items-->
+
+
+<br>
+
+<div>
+	<h2 id="FeaturedContent">
+		Featured Content
+	<h2>
+</div>
+
+<!--Video Grid-->
+<div class="videoGrid">
+
+<div class="categoryContent">
+<a href="#">
+		<video class="video-fluid" id="video"autoplay loop muted>
+			<source src="./Videos/Payne_Assassin's Creed® Unity 2020-03-29 21-19-47.mp4" type="video/mp4" />
+		</video>
+</a>		
+	<div class="videoDescription">
+		<a  href= "index.html"><img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter"></a>
+			<div class="MediaDetails">
+				<a  href= "Content_Creator_Profile.html"><h5 class="streamerName"> Payne Henry <h5></a>
+				<h6> Let's chill on a classic 💤💨😝<h6>
+				<h6> Assassin's Creed Unity<h6>
+			</div>
+		
+	</div>
+
+</div>
+
+<div class="categoryContent">
+
+	<iframe  id="video" src="https://www.youtube.com/embed/yFtZvUiINpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="categoryContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/Z3_c_KlxojY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="categoryContent">
+
+      <iframe id="video" src="https://www.youtube.com/embed/yFtZvUiINpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="categoryContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/_YHIINbdJMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="categoryContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/yFtZvUiINpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="categoryContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/Z3_c_KlxojY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="categoryContent">
+
+      <iframe id="video" src="https://www.youtube.com/embed/yFtZvUiINpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	  
+</div>
+
+<span id="dots">	</span>	
+	
+<span id="more">	
+
+<div class="categoryContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/_YHIINbdJMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="categoryContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/yFtZvUiINpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="categoryContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/Z3_c_KlxojY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="categoryContent">
+
+      <iframe id="video" src="https://www.youtube.com/embed/yFtZvUiINpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	  
+</div>
+
+<div class="categoryContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/_YHIINbdJMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="categoryContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/yFtZvUiINpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="categoryContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/Z3_c_KlxojY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="categoryContent">
+
+      <iframe id="video" src="https://www.youtube.com/embed/yFtZvUiINpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	  
+</div>
+
+</span>
+<br>
+
+<button onclick="myFunction()" id="myBtn">Show more</button>
+</div>
+
+
+</div>	<!--Content body-->
+<br><br>
+<div class="GameCategories">
+	
+<div>
+	<h2 id="Top_Categories">
+		Top Categories
+	<h2>
+	<br>
+</div>
+
+
+
+<div class= "categories">
+	<img src="./Images/BR.jpg" alt="Battle Royale">								<!--<a  href= "index.html"><img class="logo" src="./Images/Zephyr.png" alt="Zephyr Gaming"></a>-->
+</div>
+
+<div class= "categories">
+	<img class= "atest" src="./Images/BR.jpg" alt="First Person Shooter">	
+</div>
+
+<div class= "categories">
+	<img src="./Images/BR.jpg" alt="Racing">	
+</div>
+
+<div class= "categories">
+	<img src="./Images/BR.jpg" alt="Role Playing">	
+</div>
+
+<div class= "categories">
+	<img src="./Images/BR.jpg" alt="Sports">	
+</div>
+
+<div class= "categories">
+	<img src="./Images/BR.jpg" alt="Simulation">	
+</div>
+
+</div>
+
+<br>
+
+<div>
+	<h2 id="TopVideosStreams">
+		Top Videos / Streams
+	<h2>
+</div>
+
+<!--Video Grid-->
+<div class="videoGrid">
+
+<div class="TopVideosStreamsContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/_YHIINbdJMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="TopVideosStreamsContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/yFtZvUiINpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="TopVideosStreamsContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/Z3_c_KlxojY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="TopVideosStreamsContent">
+
+      <iframe id="video" src="https://www.youtube.com/embed/yFtZvUiINpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	  
+</div>
+
+<div class="TopVideosStreamsContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/_YHIINbdJMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="TopVideosStreamsContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/yFtZvUiINpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="TopVideosStreamsContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/Z3_c_KlxojY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="TopVideosStreamsContent">
+
+      <iframe id="video" src="https://www.youtube.com/embed/yFtZvUiINpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	  
+</div>
+
+<div class="TopVideosStreamsContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/_YHIINbdJMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="TopVideosStreamsContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/yFtZvUiINpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="TopVideosStreamsContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/Z3_c_KlxojY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="TopVideosStreamsContent">
+
+      <iframe id="video" src="https://www.youtube.com/embed/yFtZvUiINpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	  
+</div>
+
+<div class="TopVideosStreamsContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/_YHIINbdJMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="TopVideosStreamsContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/yFtZvUiINpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="TopVideosStreamsContent">
+
+	<iframe id="video" src="https://www.youtube.com/embed/Z3_c_KlxojY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	
+</div>
+
+<div class="TopVideosStreamsContent">
+
+      <iframe id="video" src="https://www.youtube.com/embed/yFtZvUiINpU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <div class="videoDescription">
+		<img class= "ContentCreatorPic" src="./Images/pic1.jpg" alt="First Person Shooter">
+			<div class="MediaDetails">
+				<h5 class="streamerName"> Streamer Name<h5>
+				<h6> Stream Description<h6>
+				<h6> Name of Game<h6>
+			</div>
+		
+	</div>
+	  
+</div>
+
+</span>
+<br>
+
+</div>
+
+<br><br><br><br>
+<hr>
+
+<div class="indexFooter">
+	<div class="contactUs">
+		<h4 id="Contact_Us"> Contact Us </h4>
+			<br>
+		<h6 id="Email">Email : </h6>
+		<h6 id="Telephone">Telephone : </h6>
+	</div>
+	
+	<div class="socialIcons"> 
+	
+		<h4 id="ourSocials"> Check out our socials </h4>
+			
+	<div class="fb_twit_yt_ig">	
+	<a href="#"><img class="Discord" src="./Images/Discord-Logo-Black.png" alt="Discord"></a>
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-youtube"></a>
+		<a href="#" class="fa fa-instagram"></a>
+	</div>
+		
+
+	</div>
+	
+	<div class="top"> 								
+		<a  href= "index.html"><img class="logobottom" src="./Images/Zephyr.png" alt="Zephyr Gaming"></a>	
+	</div>
+	
+</div>
+
+
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+	</body>
+	
+</html>
